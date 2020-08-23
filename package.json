@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "start": "node src/index.js",
-    "build": "webpack"
+    "build": "webpack",
+    "lint": "eslint ."
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
@@ -16,7 +17,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-push": "echo test"
+      "pre-commit": "npm lint"
     }
   },
   "devDependencies": {
