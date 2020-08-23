@@ -1,0 +1,35 @@
+{
+  "name": "nodeexpressapistarter",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node src/index.js",
+    "build": "webpack"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-push": "echo test"
+    }
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.4",
+    "@babel/preset-env": "^7.11.0",
+    "babel-loader": "^8.1.0",
+    "eslint": "^7.7.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "pre-commit": "^1.2.2",
+    "prettier": "2.0.5",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
+}
