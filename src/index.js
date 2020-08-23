@@ -1,7 +1,6 @@
 /**
  * Module dependencies.
  */
-
 let app = require("./app");
 let debug = require("debug")("nodeexpressapistarter:server");
 let http = require("http");
@@ -58,6 +57,7 @@ function onError(error) {
 
   let bind = typeof port === "string" ? "Pipe " + port : "Port " + port;
 
+  /* eslint-disable no-process-exit */
   // handle specific listen errors with friendly messages
   switch (error.code) {
     case "EACCES":
@@ -71,6 +71,7 @@ function onError(error) {
     default:
       throw error;
   }
+  /* eslint-enable no-process-exit */
 }
 
 /**

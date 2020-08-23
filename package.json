@@ -17,7 +17,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm run lint"
+      "pre-commit": "env FORCE_COLOR=1 npm run lint"
     }
   },
   "devDependencies": {
@@ -28,6 +28,7 @@
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-prettier": "^3.1.4",
+    "husky": "^4.2.5",
     "pre-commit": "^1.2.2",
     "prettier": "2.0.5",
     "webpack": "^4.44.1",
