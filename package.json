@@ -4,12 +4,13 @@
   "private": true,
   "scripts": {
     "start": "node src/index.js",
+    "start:dev": "nodemon src/index.js",
     "build": "webpack",
     "lint": "eslint ."
   },
   "dependencies": {
+    "chalk": "^4.1.0",
     "cookie-parser": "~1.4.4",
-    "debug": "~2.6.9",
     "express": "~4.16.1",
     "http-errors": "~1.6.3",
     "jade": "~1.11.0",
@@ -29,6 +30,7 @@
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-prettier": "^3.1.4",
     "husky": "^4.2.5",
+    "nodemon": "^2.0.4",
     "pre-commit": "^1.2.2",
     "prettier": "2.0.5",
     "webpack": "^4.44.1",

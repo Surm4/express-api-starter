@@ -2,8 +2,8 @@
  * Module dependencies.
  */
 let app = require("./app");
-let debug = require("debug")("nodeexpressapistarter:server");
 let http = require("http");
+const { logInfo } = require("./utils/log");
 
 /**
  * Get port from environment and store in Express.
@@ -81,5 +81,5 @@ function onError(error) {
 function onListening() {
   let addr = server.address();
   let bind = typeof addr === "string" ? "pipe " + addr : "port " + addr.port;
-  debug("Listening on " + bind);
+  logInfo("Listening on " + bind);
 }

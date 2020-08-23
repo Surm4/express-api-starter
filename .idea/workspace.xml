@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="0c496d4d-92da-4110-89fb-ec5729ad98ae" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -9,6 +12,12 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
   </component>
   <component name="ProjectId" id="1aUbkDGqrONcKHXg5l1DVq6UVgO" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -31,7 +40,7 @@
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\marci\Documents\GitHub\nodeExpressApiStarter\node_modules\prettier" />
-    <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
+    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -39,7 +48,7 @@
       <recent name="C:\Users\marci\Documents\GitHub\nodeExpressApiStarter" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.lint">
+  <component name="RunManager" selected="npm.start:dev">
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -70,8 +79,19 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="start:dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start:dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.start:dev" />
         <item itemvalue="npm.lint" />
         <item itemvalue="npm.build" />
         <item itemvalue="npm.start" />
@@ -99,7 +119,7 @@
       <workItem from="1590851288343" duration="656000" />
       <workItem from="1591113454089" duration="746000" />
       <workItem from="1597252160489" duration="101000" />
-      <workItem from="1598173053782" duration="8173000" />
+      <workItem from="1598173053782" duration="11941000" />
     </task>
     <servers />
   </component>
@@ -107,33 +127,45 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1597252259635">
+    <state x="586" y="198" key="#Inspections" timestamp="1598194423655">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1597252259635" />
-    <state width="949" height="282" key="GridCell.Tab.0.bottom" timestamp="1598181781158">
+    <state x="586" y="198" key="#Inspections/0.0.1920.1040/1920.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1598194423655" />
+    <state x="659" y="381" key="#Usage_Scope" timestamp="1598194480639">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="949" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1598181781158" />
-    <state width="949" height="282" key="GridCell.Tab.0.center" timestamp="1598181781158">
+    <state x="659" y="381" key="#Usage_Scope/0.0.1920.1040/1920.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1598194480639" />
+    <state x="590" y="294" key="#com.intellij.ide.scriptingContext.ui.PerFileMappingsDialogWrapper" timestamp="1598195723597">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="949" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1598181781158" />
-    <state width="949" height="282" key="GridCell.Tab.0.left" timestamp="1598181781158">
+    <state x="590" y="294" key="#com.intellij.ide.scriptingContext.ui.PerFileMappingsDialogWrapper/0.0.1920.1040/1920.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1598195723597" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1598195722637">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="949" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1598181781158" />
-    <state width="949" height="282" key="GridCell.Tab.0.right" timestamp="1598181781158">
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1598195722637" />
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1598195981559">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="949" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1598181781158" />
-    <state x="361" y="159" key="SettingsEditor" timestamp="1598176736083">
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1598195981559" />
+    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1598195981559">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="361" y="159" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1598176736083" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1598176729031">
+    <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1598195981559" />
+    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1598195981558">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1598176729031" />
+    <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1598195981558" />
+    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1598195981559">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1598195981559" />
+    <state x="-1075" y="84" key="SettingsEditor" timestamp="1598195826814">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1075" y="84" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1598195826814" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1598195773142">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1598195773142" />
   </component>
 </project>
