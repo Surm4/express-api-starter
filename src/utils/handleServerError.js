@@ -15,6 +15,7 @@ const getErrHandlers = (port) => ({
 const handleServerError = (port) => (error) => {
   if (error.syscall !== "listen") {
     logErrorAndExit(error);
+    tesdasd;
   }
 
   const errorHandlers = getErrHandlers(port);
