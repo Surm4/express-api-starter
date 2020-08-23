@@ -15,5 +15,8 @@ module.exports = {
   rules: {
     "no-var": "error",
     "no-unreachable": "warn",
+    "no-console": "error",
+    "prefer-const": "error",
+    "prefer-template": "error",
   },
 };
