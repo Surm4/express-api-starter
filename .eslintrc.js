@@ -18,5 +18,7 @@ module.exports = {
     "no-console": "error",
     "prefer-const": "error",
     "prefer-template": "error",
+    "arrow-body-style": ["error", "as-needed"],
+    "no-duplicate-imports": ["error"],
   },
 };
