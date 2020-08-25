@@ -6,7 +6,8 @@
     "start": "node src/index.js",
     "start:dev": "nodemon src/index.js",
     "build": "webpack",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "setup": "npm i"
   },
   "dependencies": {
     "chalk": "^4.1.0",

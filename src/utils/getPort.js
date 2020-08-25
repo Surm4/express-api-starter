@@ -1,5 +1,5 @@
 const readEnv = require("./readEnv");
-const isProd = require("./isProd");
+const { isProd } = require("./isEnv");
 
 const getPort = () => {
   const portKey = isProd() ? "PROD_PORT" : "DEV_PORT";

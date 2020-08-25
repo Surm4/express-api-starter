@@ -1,4 +1,4 @@
-const isProd = require("./isProd");
+const { isProd } = require("./isEnv");
 const { pathOr, path } = require("ramda");
 
 // eslint-disable-next-line no-unused-vars
