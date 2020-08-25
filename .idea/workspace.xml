@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0c496d4d-92da-4110-89fb-ec5729ad98ae" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/getPort.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/getPort.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/handleAppErrors.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/handleAppErrors.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +126,7 @@
       <workItem from="1591113454089" duration="746000" />
       <workItem from="1597252160489" duration="101000" />
       <workItem from="1598173053782" duration="12215000" />
-      <workItem from="1598197064525" duration="9332000" />
+      <workItem from="1598197064525" duration="9764000" />
     </task>
     <servers />
   </component>
