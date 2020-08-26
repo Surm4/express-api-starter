@@ -1,13 +1,17 @@
 const messages = require("../messages");
 
-const responseCode = {
+const Code = {
+  validationFailed: "validation_failed",
+};
+
+const Response = {
   error: {
     validationFailed: {
       status: 400,
-      code: "validation_failed",
+      code: Code.validationFailed,
       message: messages.error.validationFailed,
     },
   },
 };
 
-module.exports = responseCode;
+module.exports = Response;

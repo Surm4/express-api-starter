@@ -1,5 +1,5 @@
-const resError = require("../response/error");
-const responseCode = require("../responseCode");
+const resError = require("../response/sendError");
+const responseCode = require("../response");
 const { keys, pathOr, zipObj } = require("ramda");
 
 const validationMiddleware = (fields, validateFn) => (req, res, next) => {
