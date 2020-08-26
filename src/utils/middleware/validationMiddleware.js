@@ -18,4 +18,4 @@ const validationMiddleware = (fields, validateFn) => (req, res, next) => {
   next();
 };
 
-module.exports = { validationMiddleware: validationMiddleware };
+module.exports = { validationMiddleware };

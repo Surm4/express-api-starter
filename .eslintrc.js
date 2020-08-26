@@ -20,5 +20,6 @@ module.exports = {
     "prefer-template": "error",
     "arrow-body-style": ["error", "as-needed"],
     "no-duplicate-imports": ["error"],
+    "object-shorthand": ["error"],
   },
 };
